@@ -178,7 +178,8 @@ const renderSongs = (array) => {
 
 const setPlayButtonAccessibleText = () => {
   const song = userData?.currentSong || userData?.songs[0];
-  // Используйте метод setAttribute элемента playButton, чтобы установить атрибут с именем «aria-label». Используя троичный код, установите значение атрибута Play ${song.title} или «Play», если песня?.title недоступна.
+  //Используйте метод setAttribute элемента playButton,
+  // чтобы установить атрибут с именем «aria-label». Используя троичный код, установите значение атрибута Play ${song.title} или «Play», если песня?.title недоступна.
   playButton.setAttribute()
 };
 
